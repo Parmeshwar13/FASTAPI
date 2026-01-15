@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# FastAPI / Uvicorn
+uvicorn.log
+
+# SQLite database
+*.db
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker
+docker-compose.override.yml
