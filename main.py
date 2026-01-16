@@ -29,6 +29,6 @@ def comments(id:int):
     return {'data':{'1','2'}}
 
 @app.post('/blog/')
-def create_blog(blog:Blog):
-    return (f"{blog.title}-{blog.description}")
+def create_blog(request:Blog):
+    return (f"{request.title}-{request.description}")
 
