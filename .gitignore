@@ -48,3 +48,6 @@ dist/
 
 # Docker
 docker-compose.override.yml
+# Ignore SQLite database files
+*.db
+*.sqlite3
